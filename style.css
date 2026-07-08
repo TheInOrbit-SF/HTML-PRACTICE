@@ -32,14 +32,14 @@ body::before{
   margin:0;
 }
 .info a{
-  transform: perspective(700px) rotateX(0deg) rotateY(0deg);
-  transition: transform 220ms ease, box-shadow 220ms ease;
   display: block;
   padding: 12px 20px;
   border-radius: 999px;
   text-decoration: none;
   color: beige;
   font-weight: 600;
+  transform: perspective(700px) rotateX(0deg) rotateY(0deg);
+  transition: transform 220ms ease, box-shadow 220ms ease;
 }
 .info a:hover,.info a:active{
   transform: perspective(700px) rotateX(3deg) rotateY(-6deg) translateY(-6px);
