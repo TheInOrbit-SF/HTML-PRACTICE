@@ -2,7 +2,7 @@ html{
   cursor: crosshair;
 }
 body{
-  background: conic-gradient(black,midnightblue,blue,purple,black);
+  background: radial-gradient(circle at top,#1b2a6b,#000 70%);;
   font-family: Verdana, Courier New, Arial;
   font-size: clamp(2rem,3vw,8rem);
   color: azure;
@@ -10,9 +10,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-size:cover;
-  max-height: 100%;
-  max-width: 100%;
+  min-height: 100vh;
 }
 body::before{
   content: "";
@@ -20,7 +18,7 @@ body::before{
   inset:0;
   pointer-events: none;
   z-index:200;
-  background: radial-gradient(50px circle at var(--x) var(--y), rgba(255,255,255,0.25),transparent;
+  background: radial-gradient(50px circle at var(--x) var(--y), rgba(255,255,255,0.25),transparent);
 }
 .info-nav ul{
   display:flex;
