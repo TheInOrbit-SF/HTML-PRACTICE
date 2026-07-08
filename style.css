@@ -34,7 +34,7 @@ body::before{
   color: beige;
   font-weight: 600;
 }
-.info a:hover{
+.info a:hover,.info a:active{
   transform: perspective(700px) rotateX(3deg) rotateY(-6deg) translateY(-6px);
   box-shadow: 0 20px 42px rgba(15,23,42,0.12);
   background: linear-gradient(240deg,black,midnightblue);
