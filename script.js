@@ -13,7 +13,7 @@ btn.addEventListener("click",() => {
   for(let i=100;i>=0;i--){
     fuel.textContent="FUEL:"+i+"%";
     setTimeout(() => {
-    },1000);
+    },100-i);
   };
 });
 
