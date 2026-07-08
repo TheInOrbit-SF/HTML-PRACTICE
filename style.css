@@ -50,9 +50,8 @@ body::before{
   transition: transform 220ms ease, box-shadow 220ms ease;
   background: midnightblue;
   border-radius:999px;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
+  align-items:center;
+  font-size: clamp(2rem,5vw,8rem);
 }
 .btn:hover{
   transform: perspective(700px) rotateX(3deg) rotateY(-6deg) translateY(-6px);
