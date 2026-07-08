@@ -14,6 +14,7 @@ btn.addEventListener("click",() => {
     fuel.textContent="FUEL:"+i+"%";
     setTimeout(() => {
     },1000);
+  };
 });
 
 alert("JS LOADED!");
