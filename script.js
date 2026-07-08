@@ -9,7 +9,6 @@ btn.addEventListener("click",() => {
   btn.disabled = true;
   setTimeout(() => {
     status.textContent="Launched";
-    });
   },5000);
   for(let i=100;i>=0;i--){
     fuel.textContent="FUEL:"+i+"%";
