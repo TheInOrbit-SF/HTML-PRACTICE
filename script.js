@@ -16,3 +16,4 @@ setTimeout(() => {
     },1000);
   }
 },5000);
+alert("JS LOADED!");
