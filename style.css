@@ -2,7 +2,7 @@ html{
   cursor: crosshair;
 }
 body{
-  background: conic-gradient(black,indigo,midnightblue,darkred,blue,purple,black);
+  background: conic-gradient(black,midnightblue,blue,purple,black);
   font-family: Verdana, Courier New, Arial;
   font-size: clamp(2rem,3vw,8rem);
   color: azure;
@@ -10,7 +10,6 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-repeat: no-repeat;
   background-size:cover;
   max-height: 100vh;
   max-width: 100%;
