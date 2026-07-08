@@ -7,13 +7,14 @@ const alt = document.getElementById("altitude");
 btn.addEventListener("click",() => {
   status.textContent="Ignition ON!";
   btn.disabled = true;
-});
-setTimeout(() => {
-  status.textContent="Launched";
+  setTimeout(() => {
+    status.textContent="Launched";
+    }
+  },5000);
   for(let i=100;i>=0;i--){
     fuel.textContent="FUEL:"+i+"%";
     setTimeout(() => {
     },1000);
-  }
-},5000);
+});
+
 alert("JS LOADED!");
