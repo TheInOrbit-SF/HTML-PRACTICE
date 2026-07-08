@@ -1,0 +1,48 @@
+html{
+  cursor: crosshair;
+}
+body{
+  background: conic-gradient(black,indigo,midnightblue,darkred,blue,purple,black);
+  font-family: Verdana, Courier New, Arial;
+  font-size: clamp(2rem,3vw,8rem);
+  
+}
+body::before{
+  content: "";
+  position: fixed;
+  inset:0;
+  pointer-events: none;
+  z-index:200;
+  background: radial-gradient(50px circle at var(--x) var(--y), rgba(255,255,255,0.25),transparent;
+}
+.info ul{
+  display:flex;
+  flex-direction:column;
+  justify-content: left;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin:0;
+}
+.info a{
+  transform: perspective(700px) rotateX(0deg) rotateY(0deg);
+  transition: transform 220ms ease, box-shadow 220ms ease;
+  display: block;
+  padding: 12px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+  color: beige;
+  font-weight: 600;
+}
+.info a:hover{
+  transform: perspective(700px) rotateX(3deg) rotateY(-6deg) translateY(-6px);
+  box-shadow: 0 20px 42px rgba(15,23,42,0.12);
+  background: linear-gradient(240deg,black,midnightblue);
+  color: gold;
+}
+.hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
